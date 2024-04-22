@@ -1,0 +1,19 @@
+# ui.kv
+
+<Game>:
+    orientation: 'vertical'
+
+    # Add UI elements here, such as colored blobs, buttons, and text labels
+    Button:
+        id: start_button
+        text : 'Start Game'
+        on_press : root.start_game
+
+    Label:
+        id : colored_blob
+        text : 'Colored Blob'
+        color : 1, 0, 0, 1
+
+    Label :
+        id: message
+        text : ''
