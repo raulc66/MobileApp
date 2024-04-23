@@ -1,0 +1,16 @@
+# ui.kv
+
+<Game>:
+    orientation: 'vertical'
+
+    Button:
+        id: start_button
+        text: 'Start Game'
+        on_press: root.start_game()
+
+    Label:
+        id: message
+        text: ''
+
+    Widget:
+        id: color_grid
