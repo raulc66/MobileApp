@@ -1,5 +1,6 @@
-color_list = [
+# colors.py
 
+color_list = [
     {'name': 'red', 'rgb': (1, 0, 0, 1)},
     {'name': 'green', 'rgb': (0, 1, 0, 1)},
     {'name': 'blue', 'rgb': (0, 0, 1, 1)},
@@ -17,5 +18,4 @@ color_list = [
     {'name': 'lightblue', 'rgb': (0.5, 0.5, 1, 1)},
     {'name': 'lightgreen', 'rgb': (0.5, 1, 0.5, 1)},
     {'name': 'lightred', 'rgb': (1, 0.5, 0.5, 1)}
-
 ]

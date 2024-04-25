@@ -2,15 +2,29 @@
 
 <Game>:
     orientation: 'vertical'
+    
+    BoxLayout:
+        orientation: 'horizontal'
+        size_hint: (1, None)
+        height: dp(50)
 
-    Button:
-        id: start_button
-        text: 'Start Game'
-        on_press: root.start_game()
+        Button:
+            id: start_button
+            text: 'Start Game'
+            on_press: root.start_game()
+
+        Label:
+            id: message
+            text: ''
 
     Label:
-        id: message
-        text: ''
+        id: narrative
+        text: ""
+
+    Label:
+        id: colored_blob
+        text: "Colored Blob"
+        color: (1, 0, 0, 1)  # RGBA tuple for red color
 
     Widget:
         id: color_grid
